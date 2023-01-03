@@ -154,7 +154,7 @@ export const networkConfigs = {
     },
     nodes: {
       defaultEth:
-        'wss://polygon-mumbai.g.alchemy.com/v2/wgOXirpZVAKhsdwji9jzIE2rax8BsmHT',
+        'wss://polygon-mumbai.g.alchemy.com/v2/SfalWDPIWKk1nXvahrwRfMqaF3-Qo3tj',
     },
     connectGraphEndpoint: null,
     settings: {

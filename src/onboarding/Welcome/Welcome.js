@@ -49,7 +49,7 @@ const Welcome = React.memo(function Welcome({
       }}
     >
       <Header
-        title="Welcome to Aragon"
+        title="Bienvenido a Aragon"
         subtitle="Create your own organization in a few minutes!"
       />
 

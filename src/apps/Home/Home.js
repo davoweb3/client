@@ -14,22 +14,22 @@ const EAGLE_DIMENSIONS = [1241, 833]
 
 const ACTIONS = [
   {
-    label: 'Assign Tokens',
+    label: 'Asignar Tokens',
     appId: appIds['TokenManager'],
     img: imgAssignTokens,
   },
   {
-    label: 'Vote',
+    label: 'Votar',
     appId: appIds['Voting'],
     img: imgCreateNewVote,
   },
   {
-    label: 'Check Finance',
+    label: 'Tesoreria',
     appId: appIds['Finance'],
     img: imgCheckFinance,
   },
   {
-    label: 'New Payment',
+    label: 'Nuevo Pago',
     appId: appIds['Finance'],
     img: imgNewPayment,
   },
@@ -88,7 +88,7 @@ function Home({ apps, onOpenApp }) {
             text-align: center;
           `}
         >
-          What do you want to do?
+          Qué deseas hacer?
         </h1>
         <CardLayout rowHeight={33 * GU} columnWidthMin={31 * GU}>
           {appActions.map(({ appId, img, label }, index) => (
