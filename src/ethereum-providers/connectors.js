@@ -41,7 +41,7 @@ export const connectors = [
       rpc: {
         '1': 'https://mainnet.eth.aragon.network',
         '5': 'https://goerli.eth.aragon.network',
-        '137': 'https://polygon-rpc.com',
+        '137': 'https://polygon-mainnet.g.alchemy.com/v2/8DBvDlPxHVX92-Yaf_owjXfnfx0ZlbBV',
         '80001': 'https://rpc-mumbai.maticvigil.com',
         '1666600000': 'https://api.harmony.one/',
         '1666700000': 'https://api.s0.b.hmny.io/',
