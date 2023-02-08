@@ -256,7 +256,7 @@ VotingScreen.propTypes = {
 }
 
 VotingScreen.defaultProps = {
-  appLabel: 'Voting',
+  appLabel: 'Votar',
   dataKey: 'voting',
   title: 'Configure template',
 }

@@ -87,8 +87,8 @@ export function useWalletConnectionDetails(
     isWalletAndClientSynced
 
   const defaultOkConnectionDetails = {
-    connectionMessage: `Connected to ${walletNetworkName}`,
-    connectionMessageLong: `Connected to ${walletNetworkFullName} Network`,
+    connectionMessage: `Conectado a  ${walletNetworkName}`,
+    connectionMessageLong: `Conectado a ${walletNetworkFullName} Network`,
     connectionColor: theme.positive,
   }
 

@@ -59,7 +59,7 @@ function OpenOrg({ onOpenOrg, onBack }) {
               value={domainValue}
               onChange={handleDomainChange}
               status={domainCheckStatus}
-              label="Name of existing organization"
+              label="Nombre de la DAO (asodefi)"
             />
             {displayError && (
               <Info
@@ -70,14 +70,14 @@ function OpenOrg({ onOpenOrg, onBack }) {
                   width: 100%;
                 `}
               >
-                This organization doesn’t seem to exist.
+                Esta Organización no existe!.
               </Info>
             )}
           </div>
         </InputFieldContainer>
         <SubmitButtonContainer>
           <Button
-            label="Open organization"
+            label="Ingresar a la DAO"
             mode="strong"
             onClick={handleSubmit}
           />

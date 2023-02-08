@@ -26,15 +26,15 @@ const Welcome = React.memo(function Welcome({
     <OpenOrg onBack={onBack} onOpenOrg={onOpenOrg} />
   ) : (
     <div>
-      <WelcomeAction
+     {/*  <WelcomeAction
         title="Create an organization"
         subtitle={<CreateSubtitle error={createError} />}
         illustration={actionCreate}
         onActivate={onCreate}
         hasError={createError[0] !== null && createError[0] !== 'no-account'}
-      />
+      /> */}
       <WelcomeAction
-        title="Open an existing organization"
+        title="Abrir una DAO existente"
         illustration={actionOpen}
         onActivate={onOpen}
       />
@@ -49,8 +49,8 @@ const Welcome = React.memo(function Welcome({
       }}
     >
       <Header
-        title="Welcome to Aragon"
-        subtitle="Create your own organization in a few minutes!"
+        title="Bienvenido a Asodefi"
+        // subtitle="Create your own organization in a few minutes!"
       />
 
       {suggestedOrgs.length > 0 ? (

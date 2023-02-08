@@ -3,10 +3,10 @@ import PropTypes from 'prop-types'
 import { isStaticApp } from '../../static-apps'
 import LoadingScreen from '../LoadingScreen/LoadingScreen'
 
-const LOADING_ORG = 'Loading organization…'
-const LOADING_APPS = 'Loading apps…'
-const LOADING_APP = 'Loading {APP}…'
-const LOADING_READY = 'Ready.'
+const LOADING_ORG = 'Cargando organization…'
+const LOADING_APPS = 'Cargando apps…'
+const LOADING_APP = 'Cargando...'
+const LOADING_READY = 'Listo!.'
 
 // Pick the loading steps depending on what is being loaded (permissions, internal
 // app, external app, …). `steps` must contain the strings used to represent

@@ -140,7 +140,7 @@ DomainField.defaultProps = {
   detectFullDomains: false,
   domainEnd: '.aragonid.eth',
   label: 'Name of the organization',
-  placeholder: 'Type an organization name',
+  placeholder: 'asodefi',
   status: DOMAIN_CHECK,
 }
 

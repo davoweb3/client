@@ -49,9 +49,9 @@ export default {
     'https://github.com/aragon/dao-templates/tree/templates-membership-v1.0.0/templates/membership',
   registry: 'aragonpm.eth',
   apps: [
-    { appName: 'voting.aragonpm.eth', label: 'Voting' },
+    { appName: 'voting.aragonpm.eth', label: 'Votar' },
     { appName: 'token-manager.aragonpm.eth', label: 'Tokens' },
-    { appName: 'finance.aragonpm.eth', label: 'Finance' },
+    { appName: 'finance.aragonpm.eth', label: 'Finanzas' },
   ],
   optionalApps: [{ appName: 'agent.aragonpm.eth', label: 'Agent' }],
   screens: [
@@ -81,7 +81,7 @@ export default {
               },
               {
                 label: (
-                  <KnownAppBadge appName="voting.aragonpm.eth" label="Voting" />
+                  <KnownAppBadge appName="voting.aragonpm.eth" label="Votar" />
                 ),
                 fields: VotingScreen.formatReviewFields(voting),
               },

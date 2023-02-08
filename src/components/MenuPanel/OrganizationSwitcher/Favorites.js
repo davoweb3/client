@@ -145,7 +145,7 @@ class Favorites extends React.Component {
           onActivate={this.handleOpenOrg}
           onFavoriteUpdate={this.handleFavoriteUpdate}
         />
-        <FavoritesMenuItemButton
+        {/* <FavoritesMenuItemButton
           onClick={this.handleGoHome}
           css={`
             width: 100%;
@@ -166,7 +166,7 @@ class Favorites extends React.Component {
             <IconPlus />
           </span>
           <span>Open another organization</span>
-        </FavoritesMenuItemButton>
+        </FavoritesMenuItemButton> */}
       </section>
     )
   }
