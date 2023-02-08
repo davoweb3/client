@@ -26,33 +26,13 @@ const Welcome = React.memo(function Welcome({
     <OpenOrg onBack={onBack} onOpenOrg={onOpenOrg} />
   ) : (
     <div>
-<<<<<<< Updated upstream
       <WelcomeAction
-=======
-<<<<<<< Updated upstream
-      { <WelcomeAction
->>>>>>> Stashed changes
         title="Create an organization"
         subtitle={<CreateSubtitle error={createError} />}
         illustration={actionCreate}
         onActivate={onCreate}
         hasError={createError[0] !== null && createError[0] !== 'no-account'}
-<<<<<<< Updated upstream
       />
-=======
-      /> }
-=======
-      {
-        <WelcomeAction
-          title="Create an organization"
-          subtitle={<CreateSubtitle error={createError} />}
-          illustration={actionCreate}
-          onActivate={onCreate}
-          hasError={createError[0] !== null && createError[0] !== 'no-account'}
-        />
-      }
->>>>>>> Stashed changes
->>>>>>> Stashed changes
       <WelcomeAction
         title="Open an existing organization"
         illustration={actionOpen}
@@ -69,7 +49,7 @@ const Welcome = React.memo(function Welcome({
       }}
     >
       <Header
-        title="Bienvenido a Aragon"
+        title="Welcome to Aragon"
         subtitle="Create your own organization in a few minutes!"
       />
 
